@@ -8,7 +8,7 @@ Conference Proceeding: to be published
 
 ArXiv Pre-print (with Appendix): https://arxiv.org/abs/2101.01841
 
-Video:
+Video: https://youtu.be/BMdh6dmLgrM
 
 # Prerequisities
 Python3 and PyTorch v1.1.0 and higher versions (tested with v1.1.0 and V1.4.0)
