@@ -1,12 +1,12 @@
 # PoseNet_Planar
 In this project, we investigate efficient small-sized convolutional neural networks (CNNs) for ego-motion estimation of micro air vehicles (MAVs) equipped with a downward-facing camera and inertial measurement unit (IMU), especially focusing on the robustness of estimation in fast maneuvers. 
 
-# Pulication
+# Publication
 CNN-based Ego-Motion Estimation for Fast MAV Maneuvers (accepted by ICRA 2021)
 
 Conference Proceeding: to be published
 
-ArXiv Pre-print (with Appendix): https://arxiv.org/abs/2101.01841
+ArXiv Pre-print (with Appendix): https://arxiv.org/abs/2101.01841 (to be updated)
 
 Videos: https://youtu.be/BMdh6dmLgrM https://youtu.be/Uz9pNpn94jU
 
@@ -49,11 +49,11 @@ Use the following command to run the network on indoor 45 degree downward facing
 ```bash
 python3 main.py --flight --show-img
 ```
-<img src='https://github.com/YingfuXu/PoseNet_Planar/blob/main/example_images/photometric_error_example/before.png' width=256> <img src='https://github.com/YingfuXu/PoseNet_Planar/blob/main/example_images/photometric_error_example/after.png' width=256>
+<img src='https://github.com/YingfuXu/PoseNet_Planar/blob/main/example_images/photometric_error_example/before.png' width=256>  <img src='https://github.com/YingfuXu/PoseNet_Planar/blob/main/example_images/photometric_error_example/after.png' width=256>
 
 # Authors and Maintainers
 Yingfu Xu (y.xu-6@tudelft.nl) and Prof. Dr. Guido de Croon from Micro Air Vehicle Laboratory (MAVLab), TU Delft, The Netherlands.
 
-# Acknowledgements
+# Acknowledgement
 
-We greatly thanks Ir. Nilay Y. Sheth (https://github.com/nilay994) for his supports in developing the quadrotor MAV with GPU and collecting the flight datasets. We also appreciate the author of https://github.com/ClementPinard/FlowNetPytorch upon the code structure of which we developed our code for network training. The Madgwick AHRS code in this repo is taken from https://github.com/morgil/madgwick_py, whose author is appreciated as well.
+We greatly thank Ir. Nilay Y. Sheth (https://github.com/nilay994) for his supports in developing the quadrotor MAV with GPU and collecting the flight datasets. We also appreciate the author of https://github.com/ClementPinard/FlowNetPytorch upon the code structure of which we developed our code for network training. The Madgwick AHRS code in this repo is taken from https://github.com/morgil/madgwick_py, whose author is appreciated as well.
