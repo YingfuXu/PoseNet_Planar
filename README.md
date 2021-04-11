@@ -11,12 +11,13 @@ ArXiv Pre-print (with Appendix): https://arxiv.org/abs/2101.01841
 Videos: https://youtu.be/BMdh6dmLgrM https://youtu.be/Uz9pNpn94jU
 
 # Prerequisities
-Python3 and PyTorch v1.1.0 (tested with v1.1.0 and V1.4.0)
+Python3 and PyTorch v1.1.0 (tested with v1.1.0 and v1.4.0)
+
 MATLAB (tested with v2019b and v2020a)
 
 # Usage
 ## 1.Dataset Generation 
-MATLAB
+(MATLAB)
 image_generation_matlab/main.m
 ## 2.Network Training
 python3 main.py
