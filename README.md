@@ -33,7 +33,7 @@ Supervised learning:
 ```bash
 python3 main.py --supervised
 ```
-## 3.Pre-trained Modles
+## 3.Pre-trained Models
 We provide pre-trained models (self-supervised learning) for 4 different network architectures in the pretrained_models folder. Check the paper and params.py file for details. To train with a pre-trained model and show the photometric errors before (derotated) and after (warped with the network prediction):
 ```bash
 python3 main.py --use-pretrained --show-img
