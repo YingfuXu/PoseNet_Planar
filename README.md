@@ -49,6 +49,10 @@ Use the following command to run the network on indoor 45 degree downward facing
 ```bash
 python3 main.py --flight --show-img
 ```
+
+https://github.com/YingfuXu/PoseNet_Planar/blob/main/example_images/photometric_error_example/before.png
+https://github.com/YingfuXu/PoseNet_Planar/blob/main/example_images/photometric_error_example/after.png
+
 # Authors and Maintainers
 Yingfu Xu (y.xu-6@tudelft.nl) and Prof. Dr. Guido de Croon from Micro Air Vehicle Laboratory (MAVLab), TU Delft, The Netherlands.
 
