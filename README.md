@@ -21,6 +21,9 @@ MATLAB (tested with v2019b and v2020a)
 # Usage
 ## 1.Dataset Generation 
 (MATLAB) image_generation_matlab/main.m
+
+There are 5 image pairs in the example_images folder. The code uses the example image pairs by default. To use your own dataset, change the directory in the params.py file.
+
 ## 2.Network Training
 Self-supervised learning (default): 
 ```bash
