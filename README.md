@@ -1,7 +1,7 @@
 # PoseNet_Planar
 In this project, we investigate efficient small-sized convolutional neural networks (CNNs) for ego-motion estimation of micro air vehicles (MAVs) equipped with a downward-facing camera and inertial measurement unit (IMU), especially focusing on the robustness of estimation in fast maneuvers. 
 
-# Pulication:
+# Pulication
 CNN-based Ego-Motion Estimation for Fast MAV Maneuvers (accepted by ICRA 2021)
 
 Conference Proceeding: to be published
@@ -31,7 +31,7 @@ Supervised learning:
 python3 main.py --supervised
 ```
 ## 3.Pre-trained Modles
-We provide pre-trained models for 4 different network architectures in the pretrained_models folder. Check the paper and params.py file for details. To train with a pre-trained model and show the photometric errors before (derotated) and after (warped with the network prediction):
+We provide pre-trained models (self-supervised learning) for 4 different network architectures in the pretrained_models folder. Check the paper and params.py file for details. To train with a pre-trained model and show the photometric errors before (derotated) and after (warped with the network prediction):
 ```bash
 python3 main.py --use-pretrained --show-img
 ```
@@ -46,7 +46,7 @@ Use the following command to run the network on indoor 45 degree downward facing
 ```bash
 python3 main.py --flight --show-img
 ```
-# Authors and Maintainers:
+# Authors and Maintainers
 Yingfu Xu (y.xu-6@tudelft.nl) and Prof. Dr. Guido de Croon from Micro Air Vehicle Laboratory (MAVLab), TU Delft, The Netherlands.
 
 # Acknowledgements
