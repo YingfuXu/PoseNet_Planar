@@ -13,11 +13,8 @@ Videos: https://youtu.be/BMdh6dmLgrM https://youtu.be/Uz9pNpn94jU
 # Prerequisities
 ```
 Python3 (tested with v3.6 and v3.8) 
-
 PyTorch v1.1.0 (tested with v1.1.0 and v1.4.0)
-
 Python packages: cv2, numpy, torchvision, tensorboardX.
-
 MATLAB (tested with v2019b and v2020a)
 ```
 
@@ -45,7 +42,7 @@ python3 main.py --test  --show-img
 Press any key to continue when using --show-img
 
 ## 4.Running on Public Flight Dataset
-Use the following command to run the network on indoor 45 degree downward facing sequences of the UZH-FPV dataset (https://fpv.ifi.uzh.ch/datasets/) and show the photometric errors. Change the dirctory to the dataset on your own device in file run_UZHFPV.py.
+Use the following command to run the network on indoor 45 degree downward facing sequences of the UZH-FPV dataset (https://fpv.ifi.uzh.ch/datasets/) and show the photometric errors. Change the directory to the dataset on your own device in file run_UZHFPV.py.
 ```bash
 python3 main.py --flight --show-img
 ```
