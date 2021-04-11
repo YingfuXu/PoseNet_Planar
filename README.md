@@ -11,23 +11,23 @@ ArXiv Pre-print (with Appendix): https://arxiv.org/abs/2101.01841
 Videos: https://youtu.be/BMdh6dmLgrM https://youtu.be/Uz9pNpn94jU
 
 # Prerequisities
-Python3 and PyTorch v1.1.0 and higher versions (tested with v1.1.0 and V1.4.0)
+Python3 and PyTorch v1.1.0 (tested with v1.1.0 and V1.4.0)
 MATLAB (tested with v2019b and v2020a)
 
 # Usage
 ## 1.Dataset Generation 
 MATLAB
-todo
+image_generation_matlab/main.m
 ## 2.Network Training
-todo
+python3 main.py
 ## 3.Pre-trained Modles
-todo
+python3 main.py --use-pretrained
 ## 4.Running on Public Flight Dataset
-todo
+python3 main.py --flight --show-img
 
 # Authors and Maintainers:
 Yingfu Xu (y.xu-6@tudelft.nl) and Prof. Dr. Guido de Croon from Micro Air Vehicle Laboratory (MAVLab), TU Delft, The Netherlands.
 
 # Acknowledgements
 
-We greatly thanks Ir. Nilay Y. Sheth (https://github.com/nilay994) for his supports in developing the quadrotor MAV with GPU and collecting the flight datasets. We also appreciate the author of https://github.com/ClementPinard/FlowNetPytorch upon the code structure of which we developed our code for network training.
+We greatly thanks Ir. Nilay Y. Sheth (https://github.com/nilay994) for his supports in developing the quadrotor MAV with GPU and collecting the flight datasets. We also appreciate the author of https://github.com/ClementPinard/FlowNetPytorch upon the code structure of which we developed our code for network training. The Madgwick AHRS code in this repo is taken from https://github.com/morgil/madgwick_py, whose author is appreciated as well.
