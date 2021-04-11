@@ -11,6 +11,7 @@ ArXiv Pre-print (with Appendix): https://arxiv.org/abs/2101.01841
 Videos: https://youtu.be/BMdh6dmLgrM https://youtu.be/Uz9pNpn94jU
 
 # Prerequisities
+```
 Python3 (tested with v3.6 and v3.8) 
 
 PyTorch v1.1.0 (tested with v1.1.0 and v1.4.0)
@@ -18,34 +19,36 @@ PyTorch v1.1.0 (tested with v1.1.0 and v1.4.0)
 Python packages: cv2, numpy, torchvision, tensorboardX.
 
 MATLAB (tested with v2019b and v2020a)
+```
 
 # Usage
 ## 1.Dataset Generation 
 (MATLAB) image_generation_matlab/main.m
 ## 2.Network Training
-Self-supervised learning (default): python3 main.py
-
-Supervised learning: python3 main.py --supervised
-
+Self-supervised learning (default): 
+```bash
+python3 main.py
+```
+Supervised learning: 
+```bash
+python3 main.py --supervised
+```
 ## 3.Pre-trained Modles
-We provide pre-trained models for 4 different network architectures in the pretrained_models folder. To train with a pre-trained model and show the photometric errors before (derotated) and after (warped with the network prediction):
-
+We provide pre-trained models for 4 different network architectures in the pretrained_models folder. Check the paper and params.py file for details. To train with a pre-trained model and show the photometric errors before (derotated) and after (warped with the network prediction):
+```bash
 python3 main.py --use-pretrained --show-img
-
+```
 To test the pre-trained models on testing set and show the photometric errors:
-
+```bash
 python3 main.py --test  --show-img
-
+```
 Press any key to continue when using --show-img
 
 ## 4.Running on Public Flight Dataset
 Use the following command to run the network on indoor 45 degree downward facing sequences of the UZH-FPV dataset (https://fpv.ifi.uzh.ch/datasets/) and show the photometric errors. Change the dirctory to the dataset on your own device in file run_UZHFPV.py.
-
+```bash
 python3 main.py --flight --show-img
-
-file:///home/adr/Pictures/Screenshot%20from%202021-04-12%2000-20-28.png
-
-
+```
 # Authors and Maintainers:
 Yingfu Xu (y.xu-6@tudelft.nl) and Prof. Dr. Guido de Croon from Micro Air Vehicle Laboratory (MAVLab), TU Delft, The Netherlands.
 
